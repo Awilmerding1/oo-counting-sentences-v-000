@@ -25,8 +25,7 @@ if self.end_with?("!")
 
   def count_sentences
    array = self.split(/[.!?]/)
-   array.count do |strings|
+   array.count
     
- end
   end
 end
